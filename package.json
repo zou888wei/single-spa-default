@@ -12,8 +12,8 @@
     "serve:my-vue2": "cd my-vue2 && pnpm serve",
     "install:my-vue3": "cd my-vue3 && pnpm",
     "serve:my-vue3": "cd my-vue3 && pnpm serve",
-    "install:my-vue3-vite": "cd my-vue3-vite && pnpm",
-    "serve:my-vue3-vite": "cd my-vue3-vite && pnpm serve"
+    "install:my-react": "cd my-react && pnpm",
+    "serve:my-react": "cd my-react && pnpm serve"
   },
   "keywords": [],
   "author": "",

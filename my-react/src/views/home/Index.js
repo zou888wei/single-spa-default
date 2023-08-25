@@ -1,7 +1,7 @@
 import logo from '@/assets/images/logo.svg'
 import '@/assets/styles/App.css'
 
-function App() {
+function home() {
   return (
     <div>
       <header className="App-header">
@@ -22,4 +22,4 @@ function App() {
   )
 }
 
-export default App
+export default home
