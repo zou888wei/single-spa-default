@@ -1,5 +1,5 @@
 # [single-spa-default](https://github.com/zou888wei/single-spa-default)
-原生single-spa项目 | single-spa vue | single-spa react，本项目以vue2为基座(my-root)，搭配三个子应用：my-vue2子应用，my-vue3 (TS) 子应用，my-react子应用，此项目用于学习与理解single-spa的使用及与各个框架搭建配
+原生single-spa项目 | single-spa vue | single-spa react，本项目以vue2为基座(my-root)，搭配三个子应用：my-vue2子应用，my-vue3 (TS) 子应用，my-react子应用，此项目用于学习与理解single-spa的使用及与各个框架搭建
 
 整体项目都是基于vue和react框架的脚手架搭建，并且使用pnpm进行依赖管理，如果修改了目录名字，需要删除node_modules重新建立依赖关系，或者自行改成yarn、npm等
 
@@ -15,6 +15,11 @@ cd single-spa-default
 pnpm install
 
 pnpm serve
+
+// 各个子项目也可以独立运行查看
+// my-vue2: http://localhost:11001
+// my-vue3: http://localhost:11002
+// my-react: http://localhost:11003
 ```
 
 ## 待完善
