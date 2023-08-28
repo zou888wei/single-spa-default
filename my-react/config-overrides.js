@@ -16,14 +16,13 @@ module.exports = override(
   addWebpackAlias({
     '@': path.resolve(__dirname, 'src')
   }),
-  (config, env) => {
+  (config) => {
     config.output.publicPath = PUBLIC_PATH
     config.output.path = path.join(path.dirname(config.output.path), 'dist')
     config.output.libraryTarget = 'umd'
     config.output.library = pkg.name
-    // 保持生产与开发文件名一致
+    // 保持生产与开发文件名一致(非必须)
     config.output.filename = NODE_ENV === 'production' ? 'static/js/[name].[contenthash:8].js' : 'static/js/[name].js'
-    // console.log(env)
     return config
   }
 )

@@ -25,7 +25,7 @@ pnpm serve
 ## 待完善
 
 ```
-1. 集成vite-vue、vite-react
+1. 集成vite-vue、vite-react（vite环境与webpack环境不一致，需要更改基座构建环境来适配）
 2. 增加angule
 ```
 
@@ -35,6 +35,5 @@ pnpm serve
 1. single-spa-webpack5：single-spa + Module Federation（待添加）
 2. single-spa-qiankun（待添加）
 3. micro-app-demo（待添加）
-
 ```
 
