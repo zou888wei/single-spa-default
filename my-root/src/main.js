@@ -39,9 +39,9 @@ function getHtmlScript(data, url) {
 
   Array.from(scriptList).map(item => {
     let src = item.attribs.src
-    if (src.includes('@vite')) {
-      return
-    }
+    // if (src.includes('@vite')) {
+    //   return
+    // }
     if (!re.test(src)) {
       src = url + src
     }
