@@ -31,9 +31,7 @@ pnpm serve
 
 ## 扩展项目
 
-```
-1. single-spa-webpack5：single-spa + Module Federation（待添加）
+1. single-spa-webpack5：[single-spa + Module Federation](https://github.com/zou888wei/single-spa-webpack5.git)
 2. single-spa-qiankun（待添加）
 3. micro-app-demo（待添加）
-```
 
