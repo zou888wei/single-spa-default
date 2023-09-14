@@ -10,7 +10,7 @@
 ```cmake
 git clone https://github.com/zou888wei/single-spa-vue.git
 
-cd single-spa-default
+cd single-spa-vue
 
 pnpm install
 
