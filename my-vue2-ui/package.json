@@ -1,9 +1,9 @@
 {
-  "name": "my-vue2",
+  "name": "my-vue2-ui",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve --port 11001",
+    "serve": "vue-cli-service serve --port 11004",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },

@@ -10,6 +10,8 @@
     "serve:my-root": "cd my-root && pnpm serve",
     "install:my-vue2": "cd my-vue2 && pnpm",
     "serve:my-vue2": "cd my-vue2 && pnpm serve",
+    "install:my-vue2-ui": "cd my-vue2-ui && pnpm",
+    "serve:my-vue2-ui": "cd my-vue2-ui && pnpm serve",
     "install:my-vue3": "cd my-vue3 && pnpm",
     "serve:my-vue3": "cd my-vue3 && pnpm serve",
     "install:my-react": "cd my-react && pnpm",

@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <div id="ui"></div>
     <nav>
       <a @click="goRouter">Home</a> |
       <router-link to="/vue2/about">vue2</router-link> |

@@ -4,6 +4,10 @@ import router from './router'
 import cheerio from 'cheerio'
 import { registerApplication, start } from 'single-spa'
 
+import './plugins'
+
+// import { Test } from '@/components/Test'
+
 Vue.config.productionTip = false
 
 const strRegex = '^((https|http|ftp|rtsp|mms)?://)' +
@@ -81,6 +85,11 @@ const apps = [
   {
     name: 'my-vue2',
     app: loadApp('//localhost:11001', 'my-vue2'),
+    activeWhen: '/vue2'
+  },
+  {
+    name: 'my-vue2-ui',
+    app: loadApp('//localhost:11004', 'my-vue2-ui'),
     activeWhen: '/vue2'
   },
   {
